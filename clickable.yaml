@@ -1,0 +1,24 @@
+framework: ubuntu-sdk-20.04
+clickable_minimum_required: 7.1.2
+builder: custom
+build: ${ROOT}/build.sh
+
+dependencies_target:
+- python3
+- python3-dev
+- python3-pip
+- python3.8-venv
+- libgtk-3-dev
+
+install_root_data:
+- manifest.json
+- pyobd.apparmor
+- pyobd.desktop
+- assets
+- ${BUILD_DIR}/pyobd
+- ${BUILD_DIR}/python_venv/bin
+- ${BUILD_DIR}/python_venv/lib
+- ${BUILD_DIR}/python_venv/lib64
+- ${BUILD_DIR}/python_venv/include
+- ${BUILD_DIR}/python_venv/share
+- ${BUILD_DIR}/python_venv/pyvenv.cfg

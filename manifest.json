@@ -1,0 +1,15 @@
+{
+    "name": "pyobd.thevancedgamer",
+    "description": "A short description of your app",
+    "architecture": "@CLICK_ARCH@",
+    "title": "pyOBD-II",
+    "hooks": {
+        "pyobd": {
+            "apparmor": "pyobd.apparmor",
+            "desktop":  "pyobd.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Muhammad <muhammad23012009@hotmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

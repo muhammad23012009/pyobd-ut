@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=pyOBD-II
+Exec=bin/python3 pyobd/pyobd.py
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
